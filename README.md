@@ -1,11 +1,11 @@
-About liblie-group-controllers
-==============================
+About liblie-group-controllers-feedstock
+========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/liblie-group-controllers-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ami-iit/lie-group-controllers
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/liblie-group-controllers-feedstock/blob/main/LICENSE.txt)
 
 Summary: Header-only C++ library containing controllers designed for Lie Groups.
 
@@ -52,6 +52,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17582&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/liblie-group-controllers-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17582&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/liblie-group-controllers-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
