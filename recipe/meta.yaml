@@ -1,5 +1,5 @@
 {% set name = "liblie-group-controllers" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://github.com/ami-iit/lie-group-controllers/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: 46f1dd0e33778376cc6c7a060ffaf3826e47e03802a43dcd4e63ad4bc00e1934
+    sha256: 089f7b4d20df6f34e4463aa74db8862b2b99426c6ce97bc2fdadf6a0ea763cce
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -36,7 +36,7 @@ about:
   home: https://github.com/ami-iit/lie-group-controllers
   license: LGPL-2.1-or-later
   license_file: LICENSE
-  summary:  Header-only C++ library containing controllers designed for Lie Groups.
+  summary: Header-only C++ library containing controllers designed for Lie Groups.
 
 extra:
   recipe-maintainers:
