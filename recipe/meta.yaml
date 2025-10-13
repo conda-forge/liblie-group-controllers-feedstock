@@ -1,5 +1,5 @@
 {% set name = "liblie-group-controllers" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/ami-iit/lie-group-controllers/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: 964e062dc726e92bfa7552bf3f390f65a46531d385897815cc55d04bc18f9ccc
+    sha256: 58d8d820ad7bbf6b88a0811558778efd35e192cc0dbf74067ac6724a1b254ac8
 
 build:
   number: 0
